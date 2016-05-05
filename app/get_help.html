@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            get_help
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/gelato-flat/gelato-flat.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="../libs/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/Facebook_Helper.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="get_help" id="get_help" class="type-interior"
+        data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="get_help_mobileheader" class="get_help_mobileheader">
+                <h1 dsid="mobileheader">
+                    Get Help
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="get_help_mobilecontainer" name="mobilecontainer" class="get_help_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="get_help.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="get_help.js">
+                </script>
+                <!-- helpicon -->
+                <img class="get_help_helpicon" src="../img/help.png" id="get_help_helpicon" dsid="helpicon"
+                name="helpicon" />
+                <!-- mobilelabel_7 -->
+                <div name="mobilelabel_7" id="get_help_mobilelabel_7" dsid="mobilelabel_7" data-role="appery_label"
+                class="get_help_mobilelabel_7">
+                    Get some help
+                </div>
+                <!-- mobilelabel_8 -->
+                <div name="mobilelabel_8" id="get_help_mobilelabel_8" dsid="mobilelabel_8" data-role="appery_label"
+                class="get_help_mobilelabel_8">
+                    Quitting smoking is much easier said than done. Use the map below to locate places
+                    to get help and advice about quitting smoking.
+                </div>
+                <!-- spacer_11 -->
+                <div id="get_help_spacer_11" data-role="appery_spacer" dsid="spacer_11" class='mobilespacer get_help_spacer_11'>
+                </div>
+                <!-- mobilelabel_13 -->
+                <div name="mobilelabel_13" id="get_help_mobilelabel_13" dsid="mobilelabel_13" data-role="appery_label"
+                class="get_help_mobilelabel_13">
+                    The listed nearest places to get help are currently only available in Worcester,
+                    UK.
+                </div>
+                <!-- spacer_18 -->
+                <div id="get_help_spacer_18" data-role="appery_spacer" dsid="spacer_18" class='mobilespacer get_help_spacer_18'>
+                </div>
+                <!-- mobilelabel_17 -->
+                <div name="mobilelabel_17" id="get_help_mobilelabel_17" dsid="mobilelabel_17" data-role="appery_label"
+                class="get_help_mobilelabel_17">
+                    You can get directions to and from anywhere in the world by entering an address
+                    and asking for directions.
+                </div>
+                <!-- mobilebutton_16 --><!--
+                --><a data-role="button" name="mobilebutton_16" dsid="mobilebutton_16" class="get_help_mobilebutton_16"
+                id="get_help_mobilebutton_16" data-corners="true" data-icon="navigation" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="true" data-theme="f" tabindex="3">
+                Get Location
+                </a><!--
+                --><!-- start_location -->
+                <div data-role="fieldcontain" class="get_help_start_location ">
+                    <input type="text" name="start_location" dsid="start_location" value="" placeholder="Enter starting location"
+                    id="get_help_start_location" tabindex="4" multiple data-theme="f" data-mini="false"
+                    class="get_help_start_location" />
+                </div>
+                <!-- end_location -->
+                <div data-role="fieldcontain" class="get_help_end_location ">
+                    <input type="text" name="end_location" dsid="end_location" value="" placeholder="Enter destination"
+                    id="get_help_end_location" tabindex="5" multiple data-theme="f" data-mini="false"
+                    class="get_help_end_location" />
+                </div>
+                <!-- mobilebutton_21 --><!--
+                --><a data-role="button" name="mobilebutton_21" dsid="mobilebutton_21" class="get_help_mobilebutton_21"
+                id="get_help_mobilebutton_21" data-corners="true" data-icon="location" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="6">
+                Get directions
+                </a><!--
+                --><!-- googlemap_14 -->
+                <div id="get_help_googlemap_14" dsid="googlemap_14" name="googlemap_14" data-role="appery_googlemap"
+                tiggzitype="object" apperytype="object" class='get_help_googlemap_14' style='width:100%;'>
+                </div>
+                <ul data-role="listview" id="get_help_googlemap_14_markers" name="googlemap_14_markers"
+                dsid="googlemap_14_markers" style="display:none">
+                    <!-- marker_15 -->
+                    <li id="get_help_marker_15" name="marker_15" dsid="marker_15" tiggzitype="marker"
+                    apperytype="marker" rendered="true" latitude="" longitude="" text="" address="" show_info="true"
+                    style="display:none">
+                        <div id="get_help_marker_15_infoWindow" name="marker_15_infoWindowContent" class='get_help_marker_15'>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="get_help_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="get_help_mobilefooter" data-theme="f">
+                <!-- navbar1 -->
+                <div data-role="navbar" id="get_help_navbar1" name="navbar1" dsid="navbar1" class="get_help_navbar1"
+                data-theme="f" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_3 -->
+                        <li>
+                            <a data-theme="f" data-icon="star" id="get_help_mobilenavbaritem_3" dsid="mobilenavbaritem_3"
+                            name="mobilenavbaritem_3">
+                            Calculate
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem_4 -->
+                        <li>
+                            <a data-theme="f" data-icon="calendar" id="get_help_mobilenavbaritem_4" dsid="mobilenavbaritem_4"
+                            name="mobilenavbaritem_4">
+                            Track
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem_5 -->
+                        <li>
+                            <a data-theme="f" class="ui-btn-active ui-state-persist" data-icon="info" id="get_help_mobilenavbaritem_5"
+                            dsid="mobilenavbaritem_5" name="mobilenavbaritem_5">
+                            Get help
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem_6 -->
+                        <li>
+                            <a data-theme="f" data-icon="user" id="get_help_mobilenavbaritem_6" dsid="mobilenavbaritem_6"
+                            name="mobilenavbaritem_6">
+                            Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

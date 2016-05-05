@@ -1,0 +1,106 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.get_help_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* helpicon */
+.get_help_helpicon {
+	margin: 4px 0px 4px 0px;
+	width: 50px; height: 50px;
+	display: block;
+}
+/* mobilelabel_7 */
+.get_help_mobilelabel_7 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 22px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_8 */
+.get_help_mobilelabel_8 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_11 */
+.get_help_spacer_11 {
+	width: 260px; height: 18px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_13 */
+.get_help_mobilelabel_13 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_18 */
+.get_help_spacer_18 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_17 */
+.get_help_mobilelabel_17 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilebutton_16 */
+#get_help_mobilebutton_16 {
+
+}
+.ui-btn.get_help_mobilebutton_16 {
+	margin: 4px 5px 4px 5px;
+}
+/* start_location */
+.get_help_start_location {
+	margin: 4px 0px 4px 0px;
+}
+/* end_location */
+.get_help_end_location {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_21 */
+#get_help_mobilebutton_21 {
+
+}
+.ui-btn.get_help_mobilebutton_21 {
+	margin: 4px 5px 4px 5px;
+}
+/* googlemap_14 */
+.get_help_googlemap_14 {
+	width: 320px; height: 300px;
+	margin: 4px 0px 4px 0px;
+}
+/* marker_15 */
+.get_help_marker_15 {
+	text-shadow:none;
+	color:black;
+	font-family:Arial;
+}
+/* mobilefooter */
+.get_help_mobilefooter {
+	min-height:38px;
+}
+/* navbar1 */
+.get_help_navbar1 {
+
+}
+.get_help_navbar1 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .get_help_navbar1 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .get_help_navbar1 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.get_help_navbar1 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

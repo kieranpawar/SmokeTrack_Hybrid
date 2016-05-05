@@ -1,0 +1,257 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.calculate_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* calc */
+.calculate_calc {
+	margin: 4px 0px 4px 0px;
+	width: 50px; height: 50px;
+	display: block;
+}
+/* mobilelabel_42 */
+.calculate_mobilelabel_42 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 22px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_8 */
+.calculate_mobilelabel_8 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_17 */
+.calculate_spacer_17 {
+	width: 286px; height: 18px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_9 */
+.calculate_mobilelabel_9 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* brandlist */
+.calculate_brandlist {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelabel_12 */
+.calculate_mobilelabel_12 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* cigAmount */
+.calculate_cigAmount {
+	margin: 4px 0px 4px 0px;
+}
+/* calculatechems */
+#calculate_calculatechems {
+
+}
+.ui-btn.calculate_calculatechems {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_18 */
+.calculate_spacer_18 {
+	width: 291px; height: 19px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_15 */
+.calculate_mobilelabel_15 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_22 */
+.calculate_mobilegrid_22 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.calculate_mobilegrid_22_wrapper {
+
+}
+.calculate_mobilegrid_22 > tr > td {
+	vertical-align: top;
+}
+.calculate_mobilegrid_22_row_0, .calculate_mobilegrid_22_row_0 > td {
+	height: 30px
+}
+.calculate_mobilegrid_22_row_1, .calculate_mobilegrid_22_row_1 > td {
+	height: 30px
+}
+.calculate_mobilegrid_22_row_2, .calculate_mobilegrid_22_row_2 > td {
+	height: 30px
+}
+.calculate_mobilegrid_22_row_3, .calculate_mobilegrid_22_row_3 > td {
+	height: 30px
+}
+/* mobilegridcell_23 */
+.calculate_mobilegridcell_23 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_23 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_31 */
+.calculate_mobilelabel_31 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_24 */
+.calculate_mobilegridcell_24 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_24 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_32 */
+.calculate_mobilelabel_32 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_25 */
+.calculate_mobilegridcell_25 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_25 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_33 */
+.calculate_mobilelabel_33 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_26 */
+.calculate_mobilegridcell_26 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_26 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* tarAmount */
+.calculate_tarAmount {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_27 */
+.calculate_mobilegridcell_27 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_27 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_34 */
+.calculate_mobilelabel_34 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_28 */
+.calculate_mobilegridcell_28 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_28 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* nicotineAmount */
+.calculate_nicotineAmount {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_29 */
+.calculate_mobilegridcell_29 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_29 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_35 */
+.calculate_mobilelabel_35 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_30 */
+.calculate_mobilegridcell_30 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.calculate_mobilegridcell_30 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* coAmount */
+.calculate_coAmount {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.calculate_mobilefooter {
+	min-height:38px;
+}
+/* navbar1 */
+.calculate_navbar1 {
+
+}
+.calculate_navbar1 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .calculate_navbar1 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .calculate_navbar1 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.calculate_navbar1 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

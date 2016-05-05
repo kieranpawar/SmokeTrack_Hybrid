@@ -1,0 +1,219 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_43 */
+#details_mobilebutton_43 {
+
+}
+.ui-btn.details_mobilebutton_43 {
+
+}
+/* mobilecontainer */
+.ui-content.details_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_2 */
+.details_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 22px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_4 */
+.details_mobilelabel_4 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_5 */
+.details_spacer_5 {
+	width: 260px; height: 16px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_6 */
+.details_mobilelabel_6 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* firstnamechange */
+.details_firstnamechange {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_8 */
+.details_mobilelabel_8 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* lastnamechange */
+.details_lastnamechange {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_10 */
+.details_mobilelabel_10 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* agechange */
+.details_agechange {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_18 */
+.details_spacer_18 {
+	width: 260px; height: 20px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_12 */
+.details_mobilelabel_12 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* amountbeforechange */
+.details_amountbeforechange {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_14 */
+.details_mobilelabel_14 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* amountnowchange */
+.details_amountnowchange {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_16 */
+.details_mobilelabel_16 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* amounttargetchange */
+.details_amounttargetchange {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_22 */
+.details_spacer_22 {
+	width: 260px; height: 18px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_21 */
+#details_mobilebutton_21 {
+
+}
+.ui-btn.details_mobilebutton_21 {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_29 */
+.details_spacer_29 {
+	width: 260px; height: 19px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_38 */
+.details_mobilelabel_38 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_39 */
+.details_mobilelabel_39 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_23 */
+.details_mobilelabel_23 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* password1 */
+.details_password1 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_25 */
+.details_mobilelabel_25 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* password2 */
+.details_password2 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_40 */
+.details_mobilelabel_40 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* secretquestion */
+.details_secretquestion {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_42 */
+.details_mobilelabel_42 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* secretanswer */
+.details_secretanswer {
+	margin: 4px 0px 4px 0px;
+}
+/* setpassword */
+#details_setpassword {
+
+}
+.ui-btn.details_setpassword {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_35 */
+.details_spacer_35 {
+	width: 260px; height: 22px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_31 */
+.details_mobilelabel_31 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* removepassword1 */
+.details_removepassword1 {
+	margin: 4px 0px 4px 0px;
+}
+/* removepassword2 */
+.details_removepassword2 {
+	margin: 4px 0px 4px 0px;
+}
+/* removepasswordbutton */
+#details_removepasswordbutton {
+
+}
+.ui-btn.details_removepasswordbutton {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.details_mobilefooter {
+	min-height:38px;
+}

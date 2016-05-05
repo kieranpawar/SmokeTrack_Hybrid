@@ -1,0 +1,55 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Login_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_2 */
+.Login_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 22px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_4 */
+.Login_spacer_4 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_3 */
+.Login_mobilelabel_3 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* password */
+.Login_password {
+	margin: 4px 0px 4px 0px;
+}
+/* login */
+#Login_login {
+
+}
+.ui-btn.Login_login {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_10 */
+.Login_spacer_10 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_8 */
+#Login_mobilebutton_8 {
+
+}
+.ui-btn.Login_mobilebutton_8 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.Login_mobilefooter {
+	min-height:38px;
+}
